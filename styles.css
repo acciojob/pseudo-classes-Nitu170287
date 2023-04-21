@@ -1,1 +1,29 @@
 /*  your css code here. If applicable */
+:root{
+	background: skyblue;
+}
+div p:first-child {
+	background-color:black;
+	color:white;
+}
+div p:last-child{
+	color:red;
+}
+ul li:first-child{
+	width:50% ;
+	background-color:white ;
+}
+ul li:last-child{
+	width:50% ;
+	background-color:white ;
+}
+ul li:nth-child(even){
+	width:50% ;
+	font-size:12px;
+	background-color: gray ;
+}
+ul li:nth-child(3){
+	width:50% ;
+	font-size:12px;
+	background-color:pink;
+}
